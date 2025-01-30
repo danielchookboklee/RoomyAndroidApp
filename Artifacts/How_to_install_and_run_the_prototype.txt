@@ -1,0 +1,15 @@
+Running the prototype is quite straightforward.
+
+To run the prototype as apk:
+Download the repository. The open the current version of the .apk file.
+The .apk file should be in the root.
+To open an .apk, open Android Studio and go to File->Profile or Debug APK.
+If you haven't already, create a virtual device through the Virtual Device Manager, selecting an Android smartphone. We recommend the "Nexus 6" virtual device.
+Run the app in the virtual device environment.
+
+To run the prototype as project files:
+Download the repository. Then open the folder roomy/Code/AndroidApp in Android Studio.
+If you haven't already, create a virtual device through the Virtual Device Manager, selecting an Android smartphone. We recommend the "Nexus 6" virtual device.
+Run the app in the virtual device environment.
+
+The current version of the app is an alpha prototype.

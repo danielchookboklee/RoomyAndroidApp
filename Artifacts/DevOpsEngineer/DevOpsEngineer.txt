@@ -1,0 +1,11 @@
+General Info for DevOps Engineer
+
+Description : keeps track on what relates to the Agile SW Dev,
+needed technology (IDE, Gitlab repository, software stack, programming language, sw dev
+tools and libraries), helps and resolve issues with the CI/CD pipeline, Docker, Kubernetes
+and alike. We need team members being productively contribute to the code base, the code
+needs to be build into executables that run on some architecture such that one can demo
+the prototype to interested stakeholders. Just for clarification: an Android app that only runs
+locally on your laptop inside an emulator with just some UI screens is NOT a sufficient
+prototype. For persistent storage you typically need something on the backend that is
+shared across users.

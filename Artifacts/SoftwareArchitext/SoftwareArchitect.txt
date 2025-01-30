@@ -1,0 +1,7 @@
+General Info for Software Architext
+
+Description :  keeps track on what the current solution looks like, the
+bits and pieces that are known/unknown, makes sure that design/code pieces fit together.
+Contributes to QA with integration testing and testing the overall system (design,
+implementation). Understands SW architecture, the project’s requirements in this regard and
+explores how to solve them and ensure that team follows through.

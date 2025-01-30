@@ -1,0 +1,12 @@
+Running the prototype is quite straightforward.
+Download the repository. Then open roomy/Code/AndroidApp in Android Studio.
+From there, create a virtual device through the Virtual Device Manager, selecting an Android smartphone.
+Run the app in the virtual device environment.
+
+
+The current version of the app is an alpha prototype.
+With the current prototype, the user can scroll through a list of tasks that have been set up.
+The user can mark navigate to a task, then mark it as completed. The task is then removed from the existing list and points are distributed.
+Points are also stably integrated.
+The user story of being able to earn points for their work is completed.
+Acceptance tests are done by doing a step-by-step of the pre-planned user story.

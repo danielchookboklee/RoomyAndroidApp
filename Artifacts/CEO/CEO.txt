@@ -1,0 +1,17 @@
+General Info for CEO
+
+Description : Your startup needs a vision, a competitive advantage,
+something you do better than anyone else. This requires research work, conceptual designs.
+Someone needs to act as the founder(s) or CEO, the ones who make the decision in case
+the team does not naturally agree on an issue and a decision is necessary to avoid being
+stuck. “The buck stops here”. (Note: being unable to make decisions in a timely manner is
+deadly for a startup and many early on decisions are do or die decisions). And you need
+someone who is ready to present and pitch your startup to customers, venture capitalists,
+possible employees. A startup burns through funding till it becomes profitable, so a CEO
+needs to work on securing funding, for instance with an SBIR proposal (together with the
+business analyst).
+
+
+https://slejournal.springeropen.com/articles/10.1186/s40561-019-0098-x
+1. Add Challenges to Chores, make the chores feel like a game
+2. Have users use the app more, gamification can help improve engagement with activities

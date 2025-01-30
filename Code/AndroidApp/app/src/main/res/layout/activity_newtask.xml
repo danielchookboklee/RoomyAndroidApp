@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewTaskActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="348dp"
+        android:layout_height="29dp"
+        android:layout_above="@+id/photo_selection_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-30dp"
+        android:gravity="bottom"
+        android:text="Image selection:"
+        android:textSize="12sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/photo_selection_layout"
+        android:layout_width="348dp"
+        android:layout_height="144dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:id="@+id/buttonImageSelect01"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:onClick="selectImageButton"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chore_01" />
+
+        <ImageButton
+            android:id="@+id/buttonImageSelect02"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:onClick="selectImageButton"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toEndOf="@+id/buttonImageSelect01"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chore_02"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/buttonImageSelect03"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:onClick="selectImageButton"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toEndOf="@+id/buttonImageSelect02"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chore_03" />
+
+        <ImageButton
+            android:id="@+id/buttonImageSelect04"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:onClick="selectImageButton"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toEndOf="@+id/buttonImageSelect03"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chore_04" />
+
+        <ImageButton
+            android:id="@+id/buttonImageSelect05"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:onClick="selectImageButton"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toEndOf="@+id/buttonImageSelect04"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chore_05" />
+
+        <ImageButton
+            android:id="@+id/buttonImageSelect06"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:onClick="selectImageButton"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonImageSelect01"
+            app:srcCompat="@drawable/chore_06" />
+
+        <ImageButton
+            android:id="@+id/buttonImageSelect07"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:onClick="selectImageButton"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toEndOf="@+id/buttonImageSelect06"
+            app:layout_constraintTop_toBottomOf="@+id/buttonImageSelect02"
+            app:srcCompat="@drawable/chore_07" />
+
+        <ImageButton
+            android:id="@+id/buttonImageSelect08"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:onClick="selectImageButton"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toEndOf="@+id/buttonImageSelect07"
+            app:layout_constraintTop_toBottomOf="@+id/buttonImageSelect03"
+            app:srcCompat="@drawable/chore_08" />
+
+        <ImageButton
+            android:id="@+id/buttonImageSelect09"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:onClick="selectImageButton"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toEndOf="@+id/buttonImageSelect08"
+            app:layout_constraintTop_toBottomOf="@+id/buttonImageSelect04"
+            app:srcCompat="@drawable/chore_09" />
+
+        <ImageButton
+            android:id="@+id/buttonImageSelect00"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:backgroundTint="@color/selected_green"
+            android:onClick="selectImageButton"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toEndOf="@+id/buttonImageSelect09"
+            app:layout_constraintTop_toBottomOf="@+id/buttonImageSelect04"
+            app:srcCompat="@drawable/chore_00" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/scode_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/photo_selection_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-8dp"
+        android:text=""
+        android:textColor="@color/black" />
+
+    <RelativeLayout
+        android:id="@+id/taskinfo_relative_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scode_profile"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingVertical="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task name:"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/newtask_edittext_name"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Task" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/taskinfo_relative_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taskinfo_relative_name"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingVertical="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details:"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/newtask_edittext_details"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/taskinfo_relative_pointsworth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taskinfo_relative_details"
+        android:paddingVertical="10dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Points worth:"
+                android:textSize="12sp" />
+
+            <NumberPicker
+                android:id="@+id/numberpicker_pointsworth"
+                android:layout_width="250dp"
+                android:layout_height="80dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/taskinfo_relative_timedueby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/taskinfo_relative_pointsworth"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingVertical="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time due by:"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/newtask_edittext_timedueby"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Mon 4:00pm" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/taskinfo_relative_finish_task"
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:layout_below="@+id/taskinfo_relative_timedueby"
+        android:layout_marginTop="0dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingVertical="10dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp">
+
+            <Button
+                android:id="@+id/button_addtask"
+                android:layout_width="240dp"
+                android:layout_height="80dp"
+                android:onClick="addTaskAndReturnToMain"
+                android:text="ADD TASK"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/scode_profile"
+        android:background="@color/underline" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/taskinfo_relative_name"
+        android:background="@color/underline" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/taskinfo_relative_pointsworth"
+        android:background="@color/underline" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/taskinfo_relative_timedueby"
+        android:background="@color/underline" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/taskinfo_relative_details"
+        android:background="@color/underline" />
+
+</RelativeLayout>

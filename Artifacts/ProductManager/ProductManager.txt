@@ -1,0 +1,7 @@
+General Info for Product Manager
+
+Description : Homework coordinator: keeps track on who does what for this homework
+and checks that all contributions are in on time, recognizes and helps to resolve obstacles
+people run into. Works with the Scrum master to track progress, makes progress happen.
+Keeps an eye on a fair share of workload, reports to instructor if people underperform and
+fail to contribute.

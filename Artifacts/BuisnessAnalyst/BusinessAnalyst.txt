@@ -1,0 +1,9 @@
+General Info for Buisness Analyst
+
+Description:  understands the business requirements for this project to be successful,
+sustainable, scalable. Manages that revenue aspects are taken into account and
+implemented. This means: how do you make money with this product, how do you measure
+success and establish a representation in code for such metrics. Contributes to the
+customer development the product manager needs to perform (interviews and alike) to
+recognize/identify business opportunities. Works with the CEO to secure funding with an
+SBIR proposal

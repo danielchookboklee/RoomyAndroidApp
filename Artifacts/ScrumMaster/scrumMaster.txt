@@ -1,0 +1,22 @@
+General Information and Links
+
+Descritpion: knows the ins and outs of Agile Dev with Scrum, ensures
+that team members are aligned, work productively, prepares and manages stand up
+meetings in class, takes care of the story and task board, encourages proper use of story/
+task board, tracks progress with a burn down chart, responsible for making people
+contribute regularly to code base, work on tasks (to avoid the typical milestone madness
+and getting things done).
+
+Leading Scrum Meeting
+
+https://www.projectmanager.com/blog/how-to-run-a-great-scrum-meeting
+    - 3 Qustion Framework
+        What did we do since the last meeting?
+        What are we doing for the next meeting?
+        What is in our way?
+
+Attendance and What was Discussed if Could Not Be In Attendance
+
+https://docs.google.com/spreadsheets/d/1RJP6ax3ztfcoCxJ_870XURk8fPvyi2jcIz9D0uXDyv4/edit?usp=sharing
+
+

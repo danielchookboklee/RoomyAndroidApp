@@ -1,0 +1,6 @@
+General Info for Product Owner
+
+Description:  keeps track of what the problem is that is addressed, its
+constraints, requirements. Needs to keep the team together and aligned to develop one
+streamlined product that caters to the identified customer segment. Need to organize and
+perform ongoing customer development (surveys, interviews with stakeholders)

@@ -1,0 +1,7 @@
+General Info for UIDesigner
+
+Description : understands requirements for a great user experience, and manages the
+project in this regard, ensures that the team converges to a great UI/UX design. In charge of
+creating and maintaining wireframes, contributes to the customer development the product
+manager needs to perform. Responsible for QA with respect to user acceptance testing
+(design, implementation).
